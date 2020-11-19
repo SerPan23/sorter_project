@@ -3,6 +3,9 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+void ft_super_shift_list(vector <int>& mass, int n);
+
+
 void sa(vector <int>& a);
 void sb(vector <int>& b);
 void ss(vector <int>& a, vector <int>& b);
