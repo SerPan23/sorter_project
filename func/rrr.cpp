@@ -1,3 +1,4 @@
+#include "sortic.h"
 void rra(vector<int>& a)
 {
 
