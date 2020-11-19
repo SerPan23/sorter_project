@@ -4,7 +4,7 @@
 #include <vector>
 using namespace std;
 void sa(vector <int>& a);
-void sb(vector <int>& a);
-void ss(vector <int>& a);
+void sb(vector <int>& b);
+void ss(vector <int>& a, vector <int>& b);
 
 #endif // SORTIC_H_INCLUDED
