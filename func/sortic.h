@@ -2,6 +2,7 @@
 #define SORTIC_H_INCLUDED
 #include <iostream>
 #include <vector>
+#include <fstream>
 using namespace std;
 void ft_super_shift_list(vector <int>& mass, int n);
 
@@ -18,4 +19,7 @@ void rr(vector <int>& a, vector <int>& b);
 void rra(vector <int>& a);
 void rrb(vector <int>& b);
 void rrr(vector <int>& a, vector <int>& b);
+
+void fileWrite(int value, string path);
+void fileClear(string path);
 #endif // SORTIC_H_INCLUDED

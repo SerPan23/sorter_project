@@ -144,6 +144,7 @@
     <ClCompile Include="..\..\func\rr.cpp" />
     <ClCompile Include="..\..\func\rrr.cpp" />
     <ClCompile Include="..\..\func\ss.cpp" />
+    <ClCompile Include="file.cpp" />
     <ClCompile Include="Sortic.cpp" />
   </ItemGroup>
   <ItemGroup>

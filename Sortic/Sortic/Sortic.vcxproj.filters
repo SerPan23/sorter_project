@@ -33,6 +33,9 @@
     <ClCompile Include="..\..\func\ft_super_shift_list.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\func\sortic.h">
