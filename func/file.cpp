@@ -1,8 +1,13 @@
 #include "sortic.h"
 void fileWrite(int value, string path) {
 	ofstream file;
-	file.open(path, ofstream::app);
-
+	try {
+		file.open(path, ofstream::app);
+	}
+	catch (string a) {
+		std::cerr << a << endl;
+	}
+	
 	if (file.is_open()) {
 		file << value << endl;
 	}
