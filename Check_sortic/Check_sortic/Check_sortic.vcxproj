@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\func\simple_sort.cpp" />
     <ClCompile Include="Check_sortic.cpp" />
   </ItemGroup>
   <ItemGroup>
