@@ -1,9 +1,10 @@
 #include "sortic.h"
 void pa(vector <int>& a, vector <int>& b) {
+	cout << b.size() << endl;
 	if (b.size() > 0) {
 		int tmp = b[0];
 		int tmp2 = 0;
-		for (int i = 0; i < a.size()+1; i++) {
+		for (int i = 0; i < a.size(); i++) {
 			tmp2 = a[i];
 			a[i] = tmp;
 			tmp = tmp2;
@@ -14,7 +15,6 @@ void pa(vector <int>& a, vector <int>& b) {
 
 
 void pb(vector <int>& a, vector <int>& b) {
-	vector <int> otv(a.size() + 1);
 	if (a.size() > 0) {
 		int tmp = a[0];
 		int tmp2 = 0;
