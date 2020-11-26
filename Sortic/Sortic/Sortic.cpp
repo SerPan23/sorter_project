@@ -5,7 +5,7 @@ int main()
     vector <int> b;
     string path, answer;
 
-    cout << "Do you want to clear the file? y/n ";
+    /*cout << "Do you want to clear the file? y/n ";
     cin >> answer;
     
     if (answer == "y") {
@@ -16,9 +16,9 @@ int main()
         } else {
             fileClear(path);
         }
-    } 
+    } */
 
-
+    fileWrite(3);
     int n;
     cin >> n;
     for (int i = 0; i < n; i++) {

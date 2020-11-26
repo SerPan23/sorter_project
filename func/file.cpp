@@ -1,7 +1,7 @@
-#include "../../func/sortic.h"
-void fileWrite(int value, string path = "file.txt") {
+#include "sortic.h"
+void fileWrite(int value, string path) {
 	ofstream file;
-	file.open("file.txt", ofstream::app);
+	file.open("../tmp/file.txt", ofstream::app);
 
 	if (file.is_open()) {
 		file << value << endl;

@@ -139,12 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\func\file.cpp" />
     <ClCompile Include="..\..\func\ft_super_shift_list.cpp" />
     <ClCompile Include="..\..\func\papb.cpp" />
     <ClCompile Include="..\..\func\rr.cpp" />
     <ClCompile Include="..\..\func\rrr.cpp" />
     <ClCompile Include="..\..\func\ss.cpp" />
-    <ClCompile Include="file.cpp" />
     <ClCompile Include="Sortic.cpp" />
   </ItemGroup>
   <ItemGroup>

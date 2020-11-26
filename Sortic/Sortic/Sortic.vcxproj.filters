@@ -33,7 +33,7 @@
     <ClCompile Include="..\..\func\ft_super_shift_list.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="file.cpp">
+    <ClCompile Include="..\..\func\file.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

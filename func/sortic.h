@@ -20,6 +20,6 @@ void rra(vector <int>& a);
 void rrb(vector <int>& b);
 void rrr(vector <int>& a, vector <int>& b);
 
-void fileWrite(int value, string path);
+void fileWrite(int value, string path = "../tmp/file.txt");
 void fileClear(string path);
 #endif // SORTIC_H_INCLUDED
