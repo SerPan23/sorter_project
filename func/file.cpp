@@ -1,7 +1,7 @@
 #include "sortic.h"
 void fileWrite(int value, string path) {
 	ofstream file;
-	file.open("../tmp/file.txt", ofstream::app);
+	file.open(path, ofstream::app);
 
 	if (file.is_open()) {
 		file << value << endl;
