@@ -5,7 +5,7 @@ int main()
     vector <int> b;
     string path, answer;
 
-    cout << "Do you want to clear the file? y/n";
+    cout << "Do you want to clear the file? y/n ";
     cin >> answer;
     
     if (answer == "y") {
@@ -32,16 +32,16 @@ int main()
     for (int i = 0; i < m; i++) {
         int tmp;
         cin >> tmp;
-        a.push_back(tmp);
+        b.push_back(tmp);
     }
 
     pa(a, b);
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < a.size(); i++) {
         cout << a[i] << " ";
     }
     cout << endl;
-    for (int i = 0; i < m; i++) {
+    for (int i = 0; i < b.size(); i++) {
         cout << b[i] << " ";
     }
 }
