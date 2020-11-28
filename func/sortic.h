@@ -28,4 +28,5 @@ void fill_array(vector <int>& arr);
 void cout_array(const vector <int>& arr);
 int convert_string_to_int(string str);
 void reverse_vector(vector <int>& arr);
+vector <int> simple_sort(vector <int>& arr);
 #endif // SORTIC_H_INCLUDED
