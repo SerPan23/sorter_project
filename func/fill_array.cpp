@@ -7,5 +7,5 @@ void fill_array(vector <int>& arr) {
 		arr.push_back(t);
 		cin >> tmp;
 		t = convert_string_to_int(tmp);
-	}	
+	}
 }

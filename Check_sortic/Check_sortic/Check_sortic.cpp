@@ -6,7 +6,7 @@ int main()
     fill_array(a);
     fill_array(b);
 
-
+    pa(a, b);
 
     cout_array(a);
     cout_array(b);
