@@ -28,4 +28,5 @@ void fill_array(vector <int>& arr);
 void cout_array(const vector <int>& arr);
 int convert_string_to_int(string str);
 void simple_sort(vector <int>& arr, vector <int>& arr_sort);
+void command_sort(vector <int>& a, vector <int>& b);
 #endif // SORTIC_H_INCLUDED
