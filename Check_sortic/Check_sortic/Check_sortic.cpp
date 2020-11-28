@@ -2,13 +2,12 @@
 int main()
 {
     vector <int> a;
+    vector <int> a_sort;
     vector <int> b;
     fill_array(a);
-    fill_array(b);
+    //fill_array(b);
+    simple_sort(a, a_sort);
 
-    vector <int> t;
-    simple_sort(a, t);
-
-    cout_array(t);
+    cout_array(a);
     //cout_array(b);
 }
