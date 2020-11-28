@@ -153,6 +153,9 @@
   <ItemGroup>
     <ClInclude Include="..\..\func\sortic.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\func\reverse_vector.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

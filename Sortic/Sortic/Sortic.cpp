@@ -43,8 +43,13 @@ int main()
     for (int i = 0; i < b.size(); i++) {
         cout << b[i] << " ";
     }*/
-
+    
     fill_array(a);
+    fill_array(b);
+    rrr(a, b);
+    
     cout_array(a);
+    cout << endl;
+    cout_array(b); 
 }
 
