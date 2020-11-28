@@ -145,6 +145,7 @@
     <ClCompile Include="..\..\func\cout_array.cpp" />
     <ClCompile Include="..\..\func\file.cpp" />
     <ClCompile Include="..\..\func\fill_array.cpp" />
+    <ClCompile Include="..\..\func\fill_array_from_file.cpp" />
     <ClCompile Include="..\..\func\ft_super_shift_list.cpp" />
     <ClCompile Include="..\..\func\papb.cpp" />
     <ClCompile Include="..\..\func\reverse_vector.cpp" />

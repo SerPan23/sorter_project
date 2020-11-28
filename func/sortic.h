@@ -23,7 +23,7 @@ void rra(vector <int>& a);
 void rrb(vector <int>& b);
 void rrr(vector <int>& a, vector <int>& b);
 
-void fileWrite(int value, string path = "../tmp/file.txt");
+void fileWrite(int value, string path = "../tmp/output.txt");
 void fileClear(string path);
 
 void fill_array(vector <int>& arr);
@@ -32,4 +32,6 @@ int convert_string_to_int(string str);
 void simple_sort(vector <int>& arr, vector <int>& arr_sort);
 void command_sort(vector <int>& a, vector <int>& b);
 bool compare_arrays(vector <int>& a, vector <int>& a_sort);
+
+void fill_array_from_file(vector <int>& arr, string path = "../datafiles/input.txt");
 #endif // SORTIC_H_INCLUDED
