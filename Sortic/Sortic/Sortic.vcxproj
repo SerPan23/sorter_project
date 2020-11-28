@@ -139,7 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\func\convert_string_to_int.cpp" />
+    <ClCompile Include="..\..\func\cout_array.cpp" />
     <ClCompile Include="..\..\func\file.cpp" />
+    <ClCompile Include="..\..\func\fill_array.cpp" />
     <ClCompile Include="..\..\func\ft_super_shift_list.cpp" />
     <ClCompile Include="..\..\func\papb.cpp" />
     <ClCompile Include="..\..\func\rr.cpp" />

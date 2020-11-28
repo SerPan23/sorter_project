@@ -3,7 +3,8 @@ int main()
 {
     vector <int> a;
     vector <int> b;
-    string path, answer;
+    string path, answer, input;
+    int int_input;
 
     /*cout << "Do you want to clear the file? y/n ";
     cin >> answer;
@@ -17,8 +18,6 @@ int main()
             fileClear(path);
         }
     } */
-
-    fileWrite(3);
     /*int n;
     cin >> n;
     for (int i = 0; i < n; i++) {
@@ -44,5 +43,8 @@ int main()
     for (int i = 0; i < b.size(); i++) {
         cout << b[i] << " ";
     }*/
+
+    fill_array(a);
+    cout_array(a);
 }
 
