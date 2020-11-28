@@ -7,7 +7,7 @@
 using namespace std;
 void ft_super_shift_list(vector <int>& mass, int n);
 
-
+void reverse_vector(vector <int>& arr);
 void sa(vector <int>& a);
 void sb(vector <int>& b);
 void ss(vector <int>& a, vector <int>& b);
@@ -27,6 +27,5 @@ void fileClear(string path);
 void fill_array(vector <int>& arr);
 void cout_array(const vector <int>& arr);
 int convert_string_to_int(string str);
-void reverse_vector(vector <int>& arr);
 void simple_sort(vector <int>& arr, vector <int>& arr_sort);
 #endif // SORTIC_H_INCLUDED
