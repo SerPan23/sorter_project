@@ -6,8 +6,9 @@ int main()
     fill_array(a);
     fill_array(b);
 
-    pa(a, b);
+    vector <int> t;
+    simple_sort(a, t);
 
-    cout_array(a);
-    cout_array(b);
+    cout_array(t);
+    //cout_array(b);
 }
