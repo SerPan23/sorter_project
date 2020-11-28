@@ -1,5 +1,6 @@
 #ifndef SORTIC_H_INCLUDED
 #define SORTIC_H_INCLUDED
+#include <Windows.h>
 #include <iostream>
 #include <vector>
 #include <string>
@@ -29,4 +30,5 @@ void cout_array(const vector <int>& arr);
 int convert_string_to_int(string str);
 void simple_sort(vector <int>& arr, vector <int>& arr_sort);
 void command_sort(vector <int>& a, vector <int>& b);
+bool compare_arrays(vector <int>& a, vector <int>& a_sort);
 #endif // SORTIC_H_INCLUDED
