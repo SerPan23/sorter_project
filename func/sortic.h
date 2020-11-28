@@ -2,6 +2,7 @@
 #define SORTIC_H_INCLUDED
 #include <iostream>
 #include <vector>
+#include <string>
 #include <fstream>
 using namespace std;
 void ft_super_shift_list(vector <int>& mass, int n);
@@ -22,4 +23,8 @@ void rrr(vector <int>& a, vector <int>& b);
 
 void fileWrite(int value, string path = "../tmp/file.txt");
 void fileClear(string path);
+
+void fill_array(vector <int>& arr);
+void cout_array(const vector <int>& arr);
+int convert_string_to_int(string str);
 #endif // SORTIC_H_INCLUDED
