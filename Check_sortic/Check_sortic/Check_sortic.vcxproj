@@ -144,9 +144,11 @@
     <ClCompile Include="..\..\func\convert_string_to_int.cpp" />
     <ClCompile Include="..\..\func\cout_array.cpp" />
     <ClCompile Include="..\..\func\file.cpp" />
+    <ClCompile Include="..\..\func\fill_and_sort_array_from_file_for_check_sort.cpp" />
     <ClCompile Include="..\..\func\fill_array.cpp" />
-    <ClCompile Include="..\..\func\fill_array_from_file.cpp" />
+    <ClCompile Include="..\..\func\fill_array_from_file_for_sort.cpp" />
     <ClCompile Include="..\..\func\ft_super_shift_list.cpp" />
+    <ClCompile Include="..\..\func\make_command.cpp" />
     <ClCompile Include="..\..\func\papb.cpp" />
     <ClCompile Include="..\..\func\reverse_vector.cpp" />
     <ClCompile Include="..\..\func\rr.cpp" />

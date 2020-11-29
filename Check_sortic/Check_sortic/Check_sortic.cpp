@@ -4,12 +4,20 @@ int main()
     vector <int> a;
     vector <int> a_sort;
     vector <int> b;
-    fill_array_from_file(a, "E:\Projects\C++_codes\sorter_project\datafiles\input.txt");
-    cout_array(a);
-    /*fill_array(a);
-    simple_sort(a, a_sort);
-    command_sort(a, b);
-
+    
+    string otv;
+    cout << "Do you want fill form file?(print y or n): ";
+    cin >> otv;
+    if (otv == "y") {
+        fill_and_sort_array_from_file_for_check_sort(a, b);
+        simple_sort(a, a_sort); // доделать нужно вызывать после заполнения из файла
+    }
+    else {
+        fill_array(a);
+        simple_sort(a, a_sort);
+        command_sort(a, b);
+    }
+    cout << endl;
     if (compare_arrays(a, a_sort)) {
         SetColor(2, 0);
         cout << "OK";
@@ -18,7 +26,7 @@ int main()
         SetColor(4, 0);
         cout << "KO";
     }
-    SetColor(7, 0);*/
+    SetColor(7, 0);
     //cout_array(a);
     //cout_array(b);
 }
