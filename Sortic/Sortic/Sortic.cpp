@@ -1,4 +1,53 @@
 #include "../../func/sortic.h"
+
+int find_max(vector <int> a) {
+    int max, temp;
+    max = -1;
+
+    for (int i = 0; i < a.size(); i++)
+    {
+        if (a[i] > max) max = a[i];
+    }
+    return max;
+}
+
+int find_min(vector <int> a) {
+    int min, temp;
+    min = 1001;
+    for (int i = 0; i < a.size(); i++)
+    {
+        if (a[i] < min) min = a[i];
+    }
+    return min;
+}
+
+void sort_algorithm(vector<int>& a, vector<int>& b)
+{
+    int max, size_b;
+    max = find_max(b);
+    size_b = a.size();
+
+    while (size_b) {
+        cout << "pb" << endl;
+        pb(a, b);
+        size_b--;
+    }
+
+    size_b = b.size();
+
+    for (int i = 0; i < size_b; i++)
+    {
+        max = find_max(b);
+        while (b[0] != max) {
+            rb(b); // двигаем вверх пока это не макс
+            cout << "rb" << endl;
+        }
+        pa(a, b); // из b в a двигаем свапаем верхний элемент
+        cout << "pa" << endl;
+    }
+
+}
+
 int main()
 {
     vector <int> a;
@@ -45,11 +94,8 @@ int main()
     }*/
     
     fill_array(a);
-    fill_array(b);
-    rrr(a, b);
-    
+    sort_algorithm(a, b);
     cout_array(a);
-    cout << endl;
-    cout_array(b); 
+    cout_array(b);
 }
 
