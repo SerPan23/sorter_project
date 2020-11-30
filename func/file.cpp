@@ -1,7 +1,7 @@
 #include "sortic.h"
 void fileWrite(string value, string path) {
 	ofstream file;
-	file.open(path);
+	file.open(path, ios_base::app);
 	if (file.is_open()) {
 		file << value << endl;
 	}
