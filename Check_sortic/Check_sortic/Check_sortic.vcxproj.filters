@@ -72,6 +72,9 @@
     <ClCompile Include="..\..\func\check_log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\func\convert_int_to_string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\func\sortic.h">

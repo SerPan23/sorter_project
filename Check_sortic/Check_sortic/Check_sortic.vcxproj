@@ -142,6 +142,7 @@
     <ClCompile Include="..\..\func\check_log.cpp" />
     <ClCompile Include="..\..\func\command_sort.cpp" />
     <ClCompile Include="..\..\func\compare_arrays.cpp" />
+    <ClCompile Include="..\..\func\convert_int_to_string.cpp" />
     <ClCompile Include="..\..\func\convert_string_to_int.cpp" />
     <ClCompile Include="..\..\func\cout_array.cpp" />
     <ClCompile Include="..\..\func\file.cpp" />

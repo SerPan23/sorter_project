@@ -29,6 +29,7 @@ void fileClear(string path);
 void fill_array(vector <int>& arr);
 void cout_array(const vector <int>& arr);
 int convert_string_to_int(string str);
+string convert_int_to_string(int num);
 void sort_algorithm(vector <int>& a, vector <int>& b);
 int find_min(vector <int> a);
 int find_max(vector <int> a);

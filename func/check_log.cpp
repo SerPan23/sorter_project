@@ -8,22 +8,19 @@ void check_log(vector <int>& a, vector <int>& b) {
 	for (int i = 0; i < maxl; i++) {
 		string str;
 		if (a.size() > i && b.size() > i) {
-			str += char(a[i] + 48);
+			str += convert_int_to_string(a[i]);
 			str += "|";
-			str += char(b[i] + 48);
+			str += convert_int_to_string(b[i]);
 		}
 		else if (a.size() > i && b.size() <= i) {
-			str += char(a[i]+48);
+			str += convert_int_to_string(a[i]);
 			str += "|";
 			str += " ";
 		}
 		else if (a.size() <= i && b.size() > i) {
 			str += " ";
 			str += "|";
-			str += char(b[i] + 48);
-		}
-		else {
-			str += char(i + 48);
+			str += convert_int_to_string(b[i]);
 		}
 		fileWrite(str, "E:\\Projects\\C++_codes\\sorter_project\\datafiles\\check_sortic\\log.txt");
 		str = "";
