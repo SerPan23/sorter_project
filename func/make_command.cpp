@@ -23,5 +23,5 @@ void make_command(vector <int>& a, vector <int>& b, string command) {
 		rrb(b);
 	else if (command == "rrr")
 		rrr(a, b);
-	check_log(a, b);
+	log(a, b, "E:\\Projects\\C++_codes\\sorter_project\\datafiles\\check_sortic\\log.txt");
 }

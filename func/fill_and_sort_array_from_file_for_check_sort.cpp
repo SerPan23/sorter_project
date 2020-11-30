@@ -11,7 +11,7 @@ void fill_and_sort_array_from_file_for_check_sort(vector <int>& arr, vector <int
 			if (tmp == "!") {
 				f = 1;
 				simple_sort(arr, a_sort);
-				check_log(arr, b);
+				log(arr, b, "E:\\Projects\\C++_codes\\sorter_project\\datafiles\\check_sortic\\log.txt");
 				continue;
 			}
 			if (tmp != "!" && f == 0) {

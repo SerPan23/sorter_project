@@ -69,10 +69,10 @@
     <ClCompile Include="..\..\func\fill_and_sort_array_from_file_for_check_sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\func\check_log.cpp">
+    <ClCompile Include="..\..\func\convert_int_to_string.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\func\convert_int_to_string.cpp">
+    <ClCompile Include="..\..\func\log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

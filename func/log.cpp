@@ -1,5 +1,5 @@
 #include "sortic.h"
-void check_log(vector <int>& a, vector <int>& b) {
+void log(vector <int>& a, vector <int>& b, string path) {
 	int maxl;
 	if (a.size() > b.size())
 		maxl = a.size();
@@ -22,7 +22,7 @@ void check_log(vector <int>& a, vector <int>& b) {
 			str += "|";
 			str += convert_int_to_string(b[i]);
 		}
-		fileWrite(str, "E:\\Projects\\C++_codes\\sorter_project\\datafiles\\check_sortic\\log.txt");
+		fileWrite(str, path);
 		str = "";
 	}
 }
