@@ -22,20 +22,22 @@ int main()
     }
     cout << endl;
     if (compare_arrays(a, a_sort)) {
-        SetColor(2, 0);
+        SetColor(10, 0);
         cout << "OK";
         fileWrite("-----");
         fileWrite("OK");
         fileWrite("-----");
     }
     else {
-        SetColor(4, 0);
+        SetColor(12, 0);
         cout << "KO";
         fileWrite("-----");
         fileWrite("KO");
         fileWrite("-----");
     }
     SetColor(7, 0);
+    cout << endl;
+    //system("pause");
     //cout_array(a);
     //cout_array(b);
 }
