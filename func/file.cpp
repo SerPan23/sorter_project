@@ -1,6 +1,7 @@
 #include "sortic.h"
-void fileWrite(int value, string path) {
+void fileWrite(string value, string path) {
 	ofstream file;
+	file.open(path);
 	if (file.is_open()) {
 		file << value << endl;
 	}

@@ -23,7 +23,7 @@ void rra(vector <int>& a);
 void rrb(vector <int>& b);
 void rrr(vector <int>& a, vector <int>& b);
 
-void fileWrite(int value, string path = "../tmp/output.txt");
+void fileWrite(string value, string path = "E:\\Projects\\C++_codes\\sorter_project\\datafiles\\check_sortic\\output.txt");
 void fileClear(string path);
 
 void fill_array(vector <int>& arr);
@@ -38,5 +38,5 @@ bool compare_arrays(vector <int>& a, vector <int>& a_sort);
 void make_command(vector <int>& a, vector <int>& b, string command);
 
 void fill_array_from_file_for_sort(vector <int>& arr, string path = "E:\\Projects\\C++_codes\\sorter_project\\datafiles\\sortic\\input.txt");
-void fill_and_sort_array_from_file_for_check_sort(vector <int>& arr, vector <int>& b, string path = "E:\\Projects\\C++_codes\\sorter_project\\datafiles\\check_sortic\\input.txt");
+void fill_and_sort_array_from_file_for_check_sort(vector <int>& arr, vector <int>& b, vector <int>& a_sort, string path = "E:\\Projects\\C++_codes\\sorter_project\\datafiles\\check_sortic\\input.txt");
 #endif // SORTIC_H_INCLUDED
