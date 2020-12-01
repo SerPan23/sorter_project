@@ -23,9 +23,10 @@ void pa(vector <int>& a, vector <int>& b) {
 			tmp = tmp2;
 		}
 		a.push_back(tmp);
-		reverse_vector(b);
+		/*reverse_vector(b);
 		b.pop_back();
-		reverse_vector(b);
+		reverse_vector(b);*/
+		del_first(b);
 	}
 }
 
@@ -41,8 +42,9 @@ void pb(vector <int>& a, vector <int>& b) {
 		}
 		
 		b.push_back(tmp);
-		reverse_vector(a);
+		/*reverse_vector(a);
 		a.pop_back();
-		reverse_vector(a);
+		reverse_vector(a);*/
+		del_first(a);
 	}
 }

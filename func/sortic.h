@@ -8,6 +8,7 @@
 using namespace std;
 void ft_super_shift_list(vector <int>& mass, int n);
 void SetColor(int text, int bg);
+void del_first(vector <int>& arr);
 
 void reverse_vector(vector <int>& arr);
 void sa(vector <int>& a);

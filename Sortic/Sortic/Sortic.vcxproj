@@ -144,6 +144,7 @@
     <ClCompile Include="..\..\func\convert_int_to_string.cpp" />
     <ClCompile Include="..\..\func\convert_string_to_int.cpp" />
     <ClCompile Include="..\..\func\cout_array.cpp" />
+    <ClCompile Include="..\..\func\del_first.cpp" />
     <ClCompile Include="..\..\func\file.cpp" />
     <ClCompile Include="..\..\func\fill_and_sort_array_from_file_for_check_sort.cpp" />
     <ClCompile Include="..\..\func\fill_array.cpp" />
