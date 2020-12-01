@@ -1,7 +1,6 @@
 #include "sortic.h"
 
 void pa(vector <int>& a, vector <int>& b) {
-	//cout << b.size() << endl;
 	if (b.size() > 0) {
 		int tmp = b[0];
 		int tmp2 = 0;

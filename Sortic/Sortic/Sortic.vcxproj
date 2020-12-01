@@ -144,11 +144,13 @@
     <ClCompile Include="..\..\func\convert_int_to_string.cpp" />
     <ClCompile Include="..\..\func\convert_string_to_int.cpp" />
     <ClCompile Include="..\..\func\cout_array.cpp" />
+    <ClCompile Include="..\..\func\cout_result_for_check.cpp" />
     <ClCompile Include="..\..\func\del_first.cpp" />
     <ClCompile Include="..\..\func\file.cpp" />
     <ClCompile Include="..\..\func\fill_and_sort_array_from_file_for_check_sort.cpp" />
     <ClCompile Include="..\..\func\fill_array.cpp" />
     <ClCompile Include="..\..\func\fill_array_from_file_for_sort.cpp" />
+    <ClCompile Include="..\..\func\find_min_max.cpp" />
     <ClCompile Include="..\..\func\ft_super_shift_list.cpp" />
     <ClCompile Include="..\..\func\log.cpp" />
     <ClCompile Include="..\..\func\make_command.cpp" />
@@ -157,6 +159,7 @@
     <ClCompile Include="..\..\func\rrr.cpp" />
     <ClCompile Include="..\..\func\SetColor.cpp" />
     <ClCompile Include="..\..\func\simple_sort.cpp" />
+    <ClCompile Include="..\..\func\sort_algorithm.cpp" />
     <ClCompile Include="..\..\func\ss.cpp" />
     <ClCompile Include="Sortic.cpp" />
   </ItemGroup>

@@ -20,24 +20,5 @@ int main()
         command_sort(a, b);
         fileWrite("---------------------", "E:\\Projects\\C++_codes\\sorter_project\\datafiles\\check_sortic\\log.txt");
     }
-    cout << endl;
-    if (compare_arrays(a, a_sort)) {
-        SetColor(10, 0);
-        cout << "OK";
-        fileWrite("-----");
-        fileWrite("OK");
-        fileWrite("-----");
-    }
-    else {
-        SetColor(12, 0);
-        cout << "KO";
-        fileWrite("-----");
-        fileWrite("KO");
-        fileWrite("-----");
-    }
-    SetColor(7, 0);
-    cout << endl;
-    //system("pause");
-    //cout_array(a);
-    //cout_array(b);
+    cout_result_for_check(a, a_sort);
 }
