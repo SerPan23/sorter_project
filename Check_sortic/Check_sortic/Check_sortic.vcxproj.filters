@@ -81,10 +81,10 @@
     <ClCompile Include="..\..\func\del_first.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\func\find_min_max.cpp">
+    <ClCompile Include="..\..\func\sort_algorithm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\func\sort_algorithm.cpp">
+    <ClCompile Include="..\..\func\find_min_max_index.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -150,7 +150,7 @@
     <ClCompile Include="..\..\func\fill_and_sort_array_from_file_for_check_sort.cpp" />
     <ClCompile Include="..\..\func\fill_array.cpp" />
     <ClCompile Include="..\..\func\fill_array_from_file_for_sort.cpp" />
-    <ClCompile Include="..\..\func\find_min_max.cpp" />
+    <ClCompile Include="..\..\func\find_min_max_index.cpp" />
     <ClCompile Include="..\..\func\ft_super_shift_list.cpp" />
     <ClCompile Include="..\..\func\log.cpp" />
     <ClCompile Include="..\..\func\make_command.cpp" />

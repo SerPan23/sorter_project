@@ -31,9 +31,12 @@ void fill_array(vector <int>& arr);
 void cout_array(const vector <int>& arr);
 int convert_string_to_int(string str);
 string convert_int_to_string(int num);
+
 void sort_algorithm(vector <int>& a, vector <int>& b);
 int find_min(vector <int> a);
 int find_max(vector <int> a);
+int find_index(vector <int> a, int num);
+
 void simple_sort(vector <int>& arr, vector <int>& arr_sort);
 void command_sort(vector <int>& a, vector <int>& b);
 bool compare_arrays(vector <int>& a, vector <int>& a_sort);

@@ -19,3 +19,12 @@ int find_min(vector <int> a) {
     }
     return min;
 }
+
+int find_index(vector <int> a, int num) {
+    for (int i = 0; i < a.size(); i++)
+    {
+        if (a[i] == num) {
+            return i;
+        }
+    }
+}
