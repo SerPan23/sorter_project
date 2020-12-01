@@ -5,7 +5,6 @@ int main()
     vector <int> a;
     vector <int> b;
     string path, answer, input;
-    int int_input;
     string otv;
     cout << "Do you want fill form file?(print y or n): ";
     cin >> otv;
