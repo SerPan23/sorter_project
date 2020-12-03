@@ -1,6 +1,8 @@
 #include "sortic.h"
 void sort_algorithm(vector<int>& a, vector<int>& b)
 {
+    if (a.size() == 1)
+        return ;
     int max, size_b, index, size;
     max = find_max(b);
     size_b = a.size();

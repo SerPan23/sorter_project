@@ -1,5 +1,7 @@
 #include "sortic.h"
 void simple_sort(vector <int>& arr, vector <int>& arr_sort) {
+    if (arr.size() == 0)
+        return ;
     for (int i = 0; i < arr.size(); i++)
         arr_sort.push_back(arr[i]);
     int tmp;
